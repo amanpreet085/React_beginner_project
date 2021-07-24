@@ -1,0 +1,40 @@
+.newUser {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .newUser label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .newUser input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+    background-color: #e1e5ea;
+  }
+  
+
+  .newUser button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #334443;
+    background-color: #334443;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .newUser button:hover {
+    background-color: #34656d;
+    border-color: #34656d;
+  }
